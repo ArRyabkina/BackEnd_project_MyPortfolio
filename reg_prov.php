@@ -6,7 +6,7 @@
 	<input type="hidden" name="u_type" value=<?php echo '"' . $_POST['u_type'] . '"'; ?>>
 </form>
 <?php 
-	$connect = mysqli_connect('127.0.0.1', 'speslyjk2002', 'vn4h8rRT3A', 'speslyjk2002');
+	$connect = mysqli_connect('127.0.0.1', 'speslyjk2002', 'CyJ-vWh-Zmv-mqH', 'speslyjk2002');
 	$query = mysqli_query($connect, 
 		"SELECT * FROM portfolio_users
 		WHERE u_login = '" . $_POST['u_login'] . "'

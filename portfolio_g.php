@@ -1,5 +1,5 @@
 <?php 
-	$connect = mysqli_connect('127.0.0.1', 'speslyjk2002', 'vn4h8rRT3A', 'speslyjk2002');
+	$connect = mysqli_connect('127.0.0.1', 'speslyjk2002', 'CyJ-vWh-Zmv-mqH', 'speslyjk2002');
 	//$connect = mysqli_connect('127.0.0.1', 'root', '', 'ann_pn_17');
 	$query_user = mysqli_query($connect, 'SELECT * FROM portfolio_users WHERE id_user = "' . $_POST['student_id'] . '"');
 	$res_u = $query_user->fetch_assoc();

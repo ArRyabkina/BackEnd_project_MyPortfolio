@@ -1,5 +1,5 @@
 <?php 
-$connect = mysqli_connect('127.0.0.1', 'speslyjk2002', 'vn4h8rRT3A', 'speslyjk2002');
+$connect = mysqli_connect('127.0.0.1', 'speslyjk2002', 'CyJ-vWh-Zmv-mqH', 'speslyjk2002');
 $query_stagesName = mysqli_query($connect, 
 	"SELECT * FROM portfolio_stages_name INNER JOIN portfolio_stages_olymps ON portfolio_stages_name.id_stages_name = portfolio_stages_olymps.stagesOlym_stage_name_id WHERE stagesOlym_olymp_id = '" . $_POST['let_olymp_id'] . "'
 ");

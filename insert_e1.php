@@ -1,5 +1,5 @@
 <?php 
-	$connect = mysqli_connect('127.0.0.1', 'speslyjk2002', 'vn4h8rRT3A', 'speslyjk2002');
+	$connect = mysqli_connect('127.0.0.1', 'speslyjk2002', 'CyJ-vWh-Zmv-mqH', 'speslyjk2002');
 	$query = mysqli_query($connect, 
 
 		"INSERT INTO portfolio_olymps (olymp_name, olymp_subject_id, olymp_level, olymp_href, olymp_introduction, olymp_date) 

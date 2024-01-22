@@ -1,5 +1,5 @@
 <?php 
-  $connect = mysqli_connect('127.0.0.1', 'speslyjk2002', 'vn4h8rRT3A', 'speslyjk2002');
+  $connect = mysqli_connect('127.0.0.1', 'speslyjk2002', 'CyJ-vWh-Zmv-mqH', 'speslyjk2002');
   //$connect = mysqli_connect('127.0.0.1', 'root', '', 'ann_pn_17');
   $query = mysqli_query($connect, 
     "SELECT * FROM portfolio_letters INNER JOIN portfolio_type_winner ON portfolio_type_winner.id_type_winner = portfolio_letters.let_type_id INNER JOIN portfolio_olymps ON portfolio_letters.let_olymp_id = portfolio_olymps.id_olymp WHERE let_user_id = '" . $_GET['id'] . "'

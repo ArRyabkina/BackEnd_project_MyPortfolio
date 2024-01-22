@@ -1,6 +1,6 @@
 <?php 
 	header('Content-type: text/html; charset=UTF-8');
-	$connect = mysqli_connect('127.0.0.1', 'speslyjk2002', 'vn4h8rRT3A', 'speslyjk2002');
+	$connect = mysqli_connect('127.0.0.1', 'speslyjk2002', 'CyJ-vWh-Zmv-mqH', 'speslyjk2002');
 	$query = mysqli_query($connect, 
 		"
 		SELECT * FROM portfolio_users

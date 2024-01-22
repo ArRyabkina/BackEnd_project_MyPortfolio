@@ -1,6 +1,6 @@
 <?php 
 date_default_timezone_set('Asia/Yakutsk');
-$connect = mysqli_connect('127.0.0.1', 'speslyjk2002', 'vn4h8rRT3A', 'speslyjk2002');
+$connect = mysqli_connect('127.0.0.1', 'speslyjk2002', 'CyJ-vWh-Zmv-mqH', 'speslyjk2002');
 //$connect = mysqli_connect('127.0.0.1', 'root', '', 'ann_pn_17');
 $query = mysqli_query($connect, 'SELECT id, img FROM portfolio_letters WHERE user_id = "' . $_GET['id'] . '"'); 
 $query_user = mysqli_query($connect, 'SELECT * FROM portfolio_users WHERE id_user = "' . $_GET['id'] . '"');
