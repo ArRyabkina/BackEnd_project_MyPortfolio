@@ -117,7 +117,7 @@
 					echo '<span>';
 					echo 'Есть аккаунт? ';
 					echo '</span>';
-					echo '<span><a href="login.php">';
+					echo '<span><a href="index.php">';
 					echo 'Войдите';
 					echo '</span></a>';
 
